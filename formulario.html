@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Meu primeiro formulário</title>
+<link rel="stylesheet" type="text/css" href="css/formulario.css">
+</head>
+
+
+<body>
+          	
+	
+	 
+	
+	<section id="grupo">
+	<form name="meu_form" id="meu_form">
+	
+	<p id="titulo">	
+			<h1 class="textopiscando"> Cadastre-se </h1>
+	</p>	
+			<p>
+				<label for="nome">Nome:</label>
+				<input type="text" name="nome" id="nome" required="required" />
+			</p>	
+			<p>
+				<label for="cpf">CPF:</label>
+				<input type="text" name="cpf" id="cpf" required="required" />
+			</p>
+			<p>
+				<label for="fone">Telefone:</label>
+				<input type="phone" name="fone" id="fone" required="required" />
+			</p>
+			<p>
+				<label for="email">E-mail:</label>
+				<input type="email" name="email" id="email" required="required" />
+			</p>
+			<p>
+				<label for="senha">Digite sua senha:</label>
+				<input type="password" name="senha" id="senha" required="required" />
+			</p>
+			<p>
+				<label for="confirmarsenha">Confirme a sua senha:</label>
+				<input type="password" name="senha" id="senha" required="required" />
+			</p>
+			
+			<p> <b>	Escolha seu Estado: </b> <select name="Escolhaseuestado" id="grupo" required="required"> 
+					<option selected disabled value="">Selecione</option>
+					<option>Brasilia</option>
+					<option>Minas Gerais</option>
+					<option>Rio de Janeiro</option>
+					<option>São Paulo</option>
+				</select> 
+				<p>
+				<textarea placeholder="mensagem" id="grupo"></textarea>
+			</p>
+		<p>
+			<button type="submit" form="meu_form">Enviar</button> <button type="reset" form="meu_form">Limpar</button>
+
+		</section>
+		</form>
+		
+</p>
+</body>
+</html>

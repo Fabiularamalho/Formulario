@@ -1,0 +1,41 @@
+/*Definição do formulário*/
+
+#grupo {width: 100%; height: 100%; display:flex; align-items:center; justify-content:center; }
+#grupo form {width: 38%; position: relative; float: left; background-color: #fff; padding: 2%; top: 5%; min-height: 400px}
+#grupo form label {font-weight: bold;}
+#grupo form input {max-width: 100%; width: 99%; height: 30px; margin-top: 10px; margin-bottom: 15px; border: solid #b50909 1px; 
+	padding-left:1%}
+#grupo form textarea {max-width: 100%; width: 99%; border: solid #b50909; padding-left: 1%; min-height: 100px;}
+#grupo form button {width: 30%; height: auto; cursor: pointer; background-color: #b50909; color: #fff; font-size: 1em; 
+	padding: 15px 0 15px 0; margin-left: 15%;margin-top: 1%;}
+#grupo form select {max-width: 100%; width: 99%; height: 30px; margin-top: 10px; margin-bottom: 15px; border: solid #b50909 1px; 
+	padding-left:1%}
+
+/*Imagem*/
+body{
+	background-image: url(../imagem/formulario.jpg);
+}
+
+/*Definições do titulo*/
+
+.textopiscando {
+	color: black;
+	font-size: 3rem;
+	margin: 5rem, 0rem;
+	text-align: center;
+	animation: piscapisca 5s infinite;
+}
+@keyframes piscapisca {
+	0% {color:black;}
+	10% {color: blue;}
+	20% {color: green;}
+	30% {color: red;}
+	40% {color:black;}
+	50% {color: blue;}
+	60% {color: green;}
+	70% {color: blue;}
+	80% {color: red}
+	90% {color: blue;}
+	100% {color: black;}
+
+}
